@@ -1,0 +1,11 @@
+function sol()
+    f = open("data/01-1.txt")
+    lines = readlines(f)
+    freq = 0
+    for (_, l) in enumerate(lines)
+        freq += parse(Int64,l)
+    end
+    println(freq)
+end
+
+sol()
