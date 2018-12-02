@@ -1,5 +1,5 @@
 function sol()
-    f = open("data/01-1.txt")
+    f = open("data/01.txt")
     lines = readlines(f)
     freq = 0
     for (_, l) in enumerate(lines)
