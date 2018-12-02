@@ -5,7 +5,7 @@ function sol()
     for (_, l) in enumerate(lines)
         freq += parse(Int64,l)
     end
-    println(freq)
+    return freq
 end
 
-sol()
+println(sol())
